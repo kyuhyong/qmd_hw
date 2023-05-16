@@ -1,0 +1,71 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 56ef7599-fa23-40e9-9d2c-9c83f71fd33c)
+
+  (paper "A4")
+
+  (title_block
+    (title "Q Motor Driver MB")
+    (rev "1")
+    (comment 1 "Drawn by: KHY")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 40.64 81.28) (size 41.91 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a73f6fb1-2853-4b94-8c22-748b344c8d1f)
+    (property "Sheetname" "M1_board" (at 40.64 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "M1_board.kicad_sch" (at 40.64 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "qmd_hw"
+        (path "/56ef7599-fa23-40e9-9d2c-9c83f71fd33c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 55.88) (size 41.91 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c46210d2-0e3e-4934-a02e-e3590ff19e8b)
+    (property "Sheetname" "M0_board" (at 40.64 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "M0_board.kicad_sch" (at 40.64 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "qmd_hw"
+        (path "/56ef7599-fa23-40e9-9d2c-9c83f71fd33c" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 29.21) (size 41.91 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ca95dd36-aa24-478e-9fa9-a4db851cb2f6)
+    (property "Sheetname" "main_board" (at 40.64 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main_board.kicad_sch" (at 40.64 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "qmd_hw"
+        (path "/56ef7599-fa23-40e9-9d2c-9c83f71fd33c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
